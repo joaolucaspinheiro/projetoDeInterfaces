@@ -1,0 +1,28 @@
+.navigation {
+    padding: 0px !important;
+  }
+  .navigation-col-12 {
+    border-radius: 0px !important;
+    background-color: #1C5C27 !important;
+    border: none;
+  }
+  .navigation-col-12 .navbar * {
+  }
+  ul{
+    list-style: none;
+  }
+  .navbar-header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: crosshair;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .navbar-navbar-nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 70em !important;
+  }
+  .container-fluid{
+    display: flex;
+  }

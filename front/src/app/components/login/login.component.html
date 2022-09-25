@@ -1,0 +1,16 @@
+
+<div class="col-lg-6">
+    <h1 class="h1-geral">{{ title | uppercase }}</h1>
+    <form class="col-lg-10">
+      <p>
+        <label>Email:</label>
+        <input class="form-control" required type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+      </p>
+      <p>
+        <label>Senha:</label>
+        <input class="form-control" required type="password" name="senha" />
+      </p>
+  
+      <input type="submit" value="{{title}}" class="btn-btn-success"/>
+    </form>
+  </div>
